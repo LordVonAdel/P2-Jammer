@@ -1,0 +1,23 @@
+"SolidEnergy"
+{
+	"$basetexture" "jammer/jammer_exclusion"
+	"$translucent" "1"
+	%noportal 1
+
+	$flowmap "effects/fizzler_flow"
+	$flowbounds "effects/fizzler_noise"
+	$FLOW_NOISE_TEXTURE "effects/fizzler_noise"
+	$FLOW_UVSCROLLDISTANCE "0.25"
+	$FLOW_TIMEINTERVALINSECONDS "1.2"
+	$FLOW_NOISE_SCALE 0.003
+	$FLOW_LERPEXP 1.5
+	$FLOW_WORLDUVSCALE 0.008
+	$FLOW_NORMALUVSCALE 0.008
+	$FLOW_COLOR "[0.3 0 0.3]"
+	$FLOW_VORTEX_COLOR "[0.3 0 0.3]"
+	$surfaceprop glass
+	"%keywords" Portal2
+	$translucent 1
+	$additive 1
+	$FLOW_VORTEX_SIZE 35
+}
